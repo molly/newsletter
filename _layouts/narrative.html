@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="narrative">
+  <h1 class="text-title">{{ page.title }}</h1>
+  <p class="citation">
+    <small>by {{ page.author }} on <time datetime="{{page.date}}">{{ page.date | date: "%A, %B %e, %Y" }}</time>
+    {% if page.post_collection %}
+    <br/><a href="{{ site.baseurl }}/{{ page.post_collection }}">← Back to the collection</a>
+    {% endif %}
+  </small>
+  </p>
+  {{ content }}
+  {% if page.post_collection %}
+    {% if page.post_collection == "blockchain" %}
+      {% include disclosure.html %}
+    {% endif %}
+    <div><small><a href="{{ site.baseurl }}/{{ page.post_collection }}">← Back to the collection</a></small></div>
+  {% endif %}
+</div>
