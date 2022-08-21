@@ -3,7 +3,7 @@ layout: page
 title: "Subscribe and support"
 ---
 
-To support my work, you can subscribe to my [Patreon](https://www.patreon.com/mollywhite). All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly!
+To support my work, you can subscribe to my [Patreon](https://www.patreon.com/mollywhite/membership). All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly!
 
 If you don't wish to or can't afford to pay, you can still choose the free "Follow" option, and receive the newsletter via email. Regardless of whether you pay to subscribe, I'd really appreciate you sharing widely the Patreon and the newsletter!
 
