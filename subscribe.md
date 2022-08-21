@@ -3,7 +3,9 @@ layout: page
 title: "Subscribe and support"
 ---
 
-To support my work, you can subscribe to my [Patreon](https://www.patreon.com/mollywhite). All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly! If you don't wish to or can't afford to pay, you can still choose the free "Follow" option, and receive the newsletter via email. Regardless of whether you pay to subscribe, I'd really appreciate you sharing widely the Patreon and the newsletter!
+To support my work, you can subscribe to my [Patreon](https://www.patreon.com/mollywhite). All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly!
+
+If you don't wish to or can't afford to pay, you can still choose the free "Follow" option, and receive the newsletter via email. Regardless of whether you pay to subscribe, I'd really appreciate you sharing widely the Patreon and the newsletter!
 
 For anyone who would rather donate on a one-off basis, I have a [Venmo](https://account.venmo.com/u/MollyWhite), [Cash App](https://cash.app/$molly0xfff), and [PayPal](https://www.paypal.com/donate/?business=3RM66P9NEQNFA&no_recurring=0&currency_code=USD).
 
