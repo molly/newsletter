@@ -14,7 +14,7 @@ author:
   email: molly@mollywhite.net
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: molly
+color-scheme: whitespace
 
 # Permalinks
 permalink: /:title/
