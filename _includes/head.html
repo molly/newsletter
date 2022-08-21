@@ -53,10 +53,10 @@
   {% endif %}
 
   <title>
-    {% if page.title == "Home" %}
-    {{ site.title }}
-    {% else %}
+    {% if page.title  %}
     {{ page.title }}
+    {% else %}
+    Whitespace
     {% endif %}
   </title>
 
