@@ -31,6 +31,9 @@
 
     {% if page.cc %}
     <footer class="copyright-footer">
+      {% if page.disclosure%}
+      <p>Disclosures for my work and writing pertaining to cryptocurrencies and web3 can be found <a href="https://www.mollywhite.net/crypto-disclosures" target="_blank">here</a>.</p>
+      {% endif %}
       Text is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
     </footer>
     {% endif %}
