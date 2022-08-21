@@ -32,3 +32,12 @@ $link-color: #007AB3;
 
 @import "ed";
 @import "syntax";
+
+.post-date {
+  font-family: $main-font;
+}
+
+
+a:focus, button:focus {
+  background-color: transparent
+}
