@@ -78,6 +78,10 @@ $highlight: rgba(71, 212, 192, 0.3);
       height: 100%;
     }
 
+    .illustration img {
+      margin-right: 2em;
+    }
+
     .illustration:hover, .illustration:focus {
       background-color: transparent;
     }
@@ -156,6 +160,10 @@ $highlight: rgba(71, 212, 192, 0.3);
 
       .illustration, .illustration img {
         height: 250px;
+      }
+
+      .illustration img {
+        margin-right: 0;
       }
     } 
   }
