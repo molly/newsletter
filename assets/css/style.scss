@@ -121,3 +121,32 @@ $highlight: rgba(71, 212, 192, 0.3);
     display: none;
   }
 }
+
+@media (max-width: 675px) {
+  .theme-base-whitespace {
+    .illustration-and-logo {
+      height: auto;
+      flex-direction: column;
+
+      .illustration, .illustration img {
+        height: 250px;
+      }
+    } 
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-base-whitespace {
+    .masthead {
+      margin-bottom: 1rem;
+    }
+    
+    .illustration-and-logo h1 {
+      font-size: 2rem;
+    }
+
+    .post-info {
+      flex-direction: column;
+    }
+  }
+}
