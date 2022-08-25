@@ -14,7 +14,7 @@ sitemap: false
   font-family: "DecimaMonoDecimaMono";
   src: url('https://mollywhite.net/storage/DecimaMonoDecimaMono/font.woff2') format('woff2'), url('https://mollywhite.net/storage/DecimaMonoDecimaMono/font.woff') format('woff');
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
 $main-font: "Roboto", Helvetica, sans-serif; 
 $heading-font: "DecimaMonoDecimaMono", "Courier New", monospace;
 $regular-font-size: 20px;
@@ -28,8 +28,7 @@ $regular-font-size: 20px;
 
 $text-color: #333333;
 $heading-color: #333333;
-$link-color: #02A29D;
-$accent: #47D4C0;
+$link-color: #02837E;
 $highlight: rgba(71, 212, 192, 0.3);
 
 @import "ed";
@@ -81,13 +80,18 @@ $highlight: rgba(71, 212, 192, 0.3);
       background-color: transparent;
     }
     
-    h1, h4 {
+    h1, h2 {
       margin: 0;
     } 
 
     h1 {
       font-size: 3rem;
       font-weight: 100;
+      text-transform: lowercase;
+    }
+
+    h2 {
+      font-size: 1rem;
     }
   
     a.title, a.title:hover {
@@ -120,6 +124,26 @@ $highlight: rgba(71, 212, 192, 0.3);
   #mc_embed_signup_scroll h2 {
     display: none;
   }
+
+  ul#markdown-toc, ul#markdown-toc ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  ul#markdown-toc ul {
+    padding-left: 1rem;
+
+    li {
+      padding-left: 1em;
+      text-indent: -1em;
+    }
+
+    li:before {
+      content: "»";
+      padding-right: 5px;
+    }
+  }
 }
 
 @media (max-width: 675px) {
@@ -148,5 +172,14 @@ $highlight: rgba(71, 212, 192, 0.3);
     .post-info {
       flex-direction: column;
     }
+  
+    #markdown-toc {
+      font-size: 1.2rem;
+      font-weight: 300;
+      
+      li {
+        padding: 0.6rem 0;
+      }
+    }  
   }
 }

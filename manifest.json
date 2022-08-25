@@ -1,5 +1,5 @@
 {
-  "name": "Whitespace",
+  "name": "Whitespace: A newsletter by Molly White",
   "short_name": "Whitespace",
   "icons": [
     {
@@ -13,7 +13,10 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#02837E",
+  "description": "A newsletter by Molly White"
 }
