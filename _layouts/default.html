@@ -4,23 +4,21 @@
   {% include head.html %}
 
   <body class="theme-base-{{site.color-scheme}}">
-
-    <!-- This if statement decides which sidebar to use -->
-    {% if page.toc %}
-    {% include sidebar-toc.html %}
-    {% else %}
-    {% include sidebar.html %}
-    {% endif %}
-
-
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <a href="{{ site.url }}" class="title-link"><h1>whitespace</h1></a>
-          <h4>a newsletter by Molly White</h4>
-          <span class="masthead-links"><a href="{{ site.baseurl }}/subscribe/">subscribe</a> &bull; <a href="https://www.patreon.com/mollywhite">support</a></span>
+          <div class="illustration-and-logo">
+            <a href="{{ site.url }}" class="illustration">
+              <img src="{{ site.baseurl }}/assets/molly-illustration.webp" alt="An illustration of Molly White, sitting crosslegged typing on a computer. She's wearing a collared white and blue vertical striped short sleeve shirt, jeans, and glasses. There is an abstract background of pink and blue rounded shapes." />
+            </a>
+            <div>
+              <a href="{{ site.url }}" class="title">
+                <h1>whitespace</h1>
+              </a>
+              <h4>a newsletter by Molly White</h4>
+              <span class="masthead-links"><a href="{{ site.baseurl }}/subscribe/">subscribe</a> &bull; <a href="https://www.patreon.com/mollywhite">support</a></span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -38,8 +36,6 @@
     </footer>
     {% endif %}
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
     <script>
 
     // Highlight search Query
@@ -55,23 +51,6 @@
         var content = document.getElementById("main").innerHTML;
         document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
       }
-
-    // Toggle sidebar  
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
     </script>
     <!-- Facebook SDK for JavaScript -->
 <script>

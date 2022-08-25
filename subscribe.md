@@ -3,13 +3,11 @@ layout: page
 title: "Subscribe and support"
 ---
 
-To support my work, you can subscribe to my [Patreon](https://www.patreon.com/mollywhite/membership). All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly!
+## Subscribe
 
-If you don't wish to or can't afford to pay, you can still choose the free "Follow" option, and receive the newsletter via email. Regardless of whether you pay to subscribe, I'd really appreciate you sharing widely the Patreon and the newsletter!
+All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly! If you join the Patreon either as a paying subscriber or free follower, you'll automatically receive the newsletter.
 
-For anyone who would rather donate on a one-off basis, I have a [Venmo](https://account.venmo.com/u/MollyWhite), [Cash App](https://cash.app/$molly0xfff), and [PayPal](https://www.paypal.com/donate/?business=3RM66P9NEQNFA&no_recurring=0&currency_code=USD).
-
-If you would just like to subscribe to the newsletter without paying or going through Patreon, you can also do so here:
+If you don't wish to or can't afford to pay, you can still choose the free "Follow" option on Patreon, or you can subscribe here:
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
@@ -45,3 +43,11 @@ If you would just like to subscribe to the newsletter without paying or going th
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
+And, of course, you can follow the newsletter via [RSS]({{site.url}}/feed.xml).
+
+## Support
+
+To support my work, you can subscribe to my [Patreon](https://www.patreon.com/mollywhite/membership). 
+
+For anyone who would rather contribute on a one-off basis, I have [Venmo](https://account.venmo.com/u/MollyWhite), [Cash App](https://cash.app/$molly0xfff), and [PayPal](https://www.paypal.com/donate/?business=3RM66P9NEQNFA&no_recurring=0&currency_code=USD).

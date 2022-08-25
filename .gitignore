@@ -3,3 +3,10 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .DS_Store
+
+# Symlinks
+404.md
+Gemfile
+Gemfile.lock
+_sass
+ed..gemspec

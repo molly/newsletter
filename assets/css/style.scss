@@ -26,21 +26,98 @@ $regular-font-size: 20px;
   Make sure to leave color-scheme in config file empty for granular control
 */
 
-$text-color: #444444;
-$heading-color: #444444;
-$link-color: #007AB3; 
+$text-color: #333333;
+$heading-color: #333333;
+$link-color: #02A29D;
+$accent: #47D4C0;
+$highlight: rgba(71, 212, 192, 0.3);
 
 @import "ed";
 @import "syntax";
 
-.post-date {
-  font-family: $main-font;
-}
+.theme-base-whitespace {
+  *:target {
+    background-color: $highlight;
+  }
 
-a:focus, button:focus {
-  background-color: transparent
-}
+  a:hover, a:focus, button:hover, button:focus {
+    color: $text-color;
+    background-color: $highlight;
+    text-decoration: none;
+  }
+  
+  b {
+    font-weight: 700;
+  }
 
-b {
-  font-weight: 700;
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  code {
+    color: #444444
+  }
+
+  ul ul {
+    margin-bottom: 0
+  }
+
+  .illustration-and-logo {
+    display: flex;
+    height: 300px;
+    align-items: center;
+  
+    .illustration, .illustration img {
+      height: 100%;
+    }
+
+    .illustration:hover, .illustration:focus {
+      background-color: transparent;
+    }
+    
+    h1, h4 {
+      margin: 0;
+    } 
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 100;
+    }
+  
+    a.title, a.title:hover {
+      color: #444444;
+      text-decoration: none;
+    }
+
+    .masthead-links {
+      font-size: 14px;
+      font-family: $heading-font;
+      
+      a {
+        color: #444444;
+      }
+    }
+  }
+
+  .post-date {
+    font-family: $main-font;
+  }
+
+  .copyright-footer {
+    background-color: transparent;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+    height: auto
+  }
+
+  #mc_embed_signup_scroll h2 {
+    display: none;
+  }
 }
