@@ -35,6 +35,8 @@ $highlight: rgba(71, 212, 192, 0.3);
 @import "syntax";
 
 .theme-base-whitespace {
+  font-weight: normal;
+
   *:target {
     background-color: $highlight;
   }
