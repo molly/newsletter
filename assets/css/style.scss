@@ -202,23 +202,13 @@ $link-color-dark: #47d4c0;
   }
 }
 
-@mixin darkModeNewsletter() {
-  .theme-base-whitespace {
-    a:hover, a:focus, button:hover, button:focus,
-    a.title, a.title:hover,
-    .illustration-and-logo .masthead-links a,
-    code,
-    .copyright-footer,
-    .copyright-footer a {
-      color: $text-color-dark;
-    }
+.theme-base-whitespace.dark-mode {
+  a:hover, a:focus, button:hover, button:focus,
+  a.title, a.title:hover,
+  .illustration-and-logo .masthead-links a,
+  code,
+  .copyright-footer,
+  .copyright-footer a {
+    color: $text-color-dark;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  @include darkModeNewsletter;
-}
-
-.dark-mode {
-  @include darkModeNewsletter;
 }
