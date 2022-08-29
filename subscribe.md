@@ -5,7 +5,7 @@ title: "Subscribe and support"
 
 ## Subscribe
 
-All paying subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly! If you join the Patreon either as a paying subscriber or free follower, you'll automatically receive the newsletter.
+All paying Patreon subscribers receive the _Whitespace_ issue by email a day earlier than it's released publicly! If you join the Patreon either as a paying subscriber or free follower, you'll automatically be signed up to receive the newsletter, so no need to sign up using the form below.
 
 If you don't wish to or can't afford to pay, you can still choose the free "Follow" option on Patreon, or you can subscribe here:
 
