@@ -16,7 +16,7 @@
                 <h1>Whitespace</h1>
               </a>
               <h2>a newsletter by Molly White</h2>
-              <span class="masthead-links"><a href="{{ site.baseurl }}/subscribe/">subscribe</a> &bull; <a href="https://www.patreon.com/mollywhite">support</a></span>
+              <span class="masthead-links"><a href="{{ site.baseurl }}/subscribe/">subscribe</a> &bull; <a href="https://www.patreon.com/mollywhite">support</a> &bull; <a href="https://newsletter.mollywhite.net/feed.xml">rss</a></span>
             </div>
           </div>
         </div>
@@ -37,38 +37,19 @@
     {% endif %}
 
     <script>
-
-    // Highlight search Query
-    var url = window.location.href;
-      if (url.lastIndexOf("?q=") > 0) {
-        // get the index of the parameter, add three (to account for length)
-        var stringloc = url.lastIndexOf("?q=") + 3;
-        // get the substring (query) and decode
-        var searchquery = decodeURIComponent(url.substr(stringloc));
-        // regex matches at beginning of line, end of line or word boundary, useful for poetry
-        var regex = new RegExp("(?:^|\\b)(" + searchquery + ")(?:$|\\b)", "gim");
-        // get, add mark and then set content
-        var content = document.getElementById("main").innerHTML;
-        document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
-      }
-    </script>
-    <!-- Facebook SDK for JavaScript -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '589495744558280',
-      xfbml      : true,
-      version    : 'v2.6'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+      // Highlight search Query
+      var url = window.location.href;
+        if (url.lastIndexOf("?q=") > 0) {
+          // get the index of the parameter, add three (to account for length)
+          var stringloc = url.lastIndexOf("?q=") + 3;
+          // get the substring (query) and decode
+          var searchquery = decodeURIComponent(url.substr(stringloc));
+          // regex matches at beginning of line, end of line or word boundary, useful for poetry
+          var regex = new RegExp("(?:^|\\b)(" + searchquery + ")(?:$|\\b)", "gim");
+          // get, add mark and then set content
+          var content = document.getElementById("main").innerHTML;
+          document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
+        }
   </script>
   <script src="{{site.baseurl}}/assets/js/script.js"></script>
   </body>
