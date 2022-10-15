@@ -21,9 +21,11 @@
           </div>
         </div>
       </div>
-
+      
       <div class="container content" id="main">
+        {% include post-navigation.html %}
         {{ content }}
+        {% include post-navigation.html %}
       </div>
     </div>
 

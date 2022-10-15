@@ -1,0 +1,8 @@
+<div class="post-navigation">
+  {% if page.previous.url %}
+    <a class="previous-link" href="{{page.previous.url}}">&larr;&nbsp;Previous issue</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next-link" href="{{page.next.url}}">Next issue&nbsp;&rarr;</a>
+  {% endif %}
+</div>
